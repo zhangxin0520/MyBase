@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HTML小结</title>
+</head>
+<body>
+    <a name="a"></a>
+    <h1>你好 世界</h1>
+    <h2>你好 世界</h2>
+    <h3>你好 世界</h3>
+    <h4>你好 世界</h4>
+    <h5>你好 世界</h5>
+    <h6>你好 世界</h6>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;第一段</p>
+    <p>这是第二段</p><br />
+    3 &gt;2<br />  <!--大于-->
+    4&lt;5<br />  <!--小于-->
+    &reg;<br />   <!--注册商标的符号-->
+    &copy;<br />  <!--版权的符号-->
+    <font size="5" face="楷体">你看这个字啊</font><br />
+    <b>这是粗体标签</b><br />
+    <strong>这也是粗体标签</strong><br />
+    <i>这是斜体</i><br />
+    <em>这也是斜体</em><br />
+    <del>这是删除线</del><br />
+    这是<sub>下标</sub>符号<br />
+    这是<sup>上标</sup>符号<br />
+    <hr color="red" size="30px" width="200px" /> <br /> <!--这是条水平线  水平线可以设置颜色 大小 和宽度-->
+    <ul type="square">
+        <!--这是无序列表-->
+        <li>1111</li>    <!--type可以加 square 正方体-->
+        <li>2222</li>
+        <li>3333</li>
+        <li>4444</li>
+    </ul>               <!--这是有序列表-->
+    <!--type 后面加 1 A a Ⅰ选择序号类型  start 后面加数字选择第几个开始-->
+    <ol type="1" start="5">
+        <li>1111</li>
+        <li>1111</li>
+        <li>1111</li>
+        <li>1111</li>
+        <li>1111</li>
+    </ol>
+    <dl>
+        <dt>动物</dt>
+        <dd>大象</dd>
+        <dd>小鸟</dd>
+        <dt>鱼</dt>
+        <dd>锦鲤</dd>
+        <dd>红罗非</dd>
+    </dl>
+
+    <a href="#a">最上面</a>  <!--锚点跳转功能-->
+    <a href="www.baidu.com"></a>   <!--网页跳转功能-->
+    <img src="imgs/001.png" width="200px" height="200px" alt="这不是吾王" title="ex咖喱棒">
+    <!--alt是指当加载不出来的时候显示的文字  title是指鼠标悬浮图片上的时候显示的文字-->
+    <table border="1" width="600px" height="200px">
+        <caption>表格标题</caption>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>班级</th>
+            <th>性别</th>
+        </tr>
+        <tr>
+            <td rowspan="2">张三</td>
+            <td>18</td>
+            <td>184</td>
+            <td>男</td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+    <form name="fm" action="">
+        文本框：<input type="text" /><br />
+        密码框：<input type="password" /><br />
+        文本域：<textarea cols="30" rows="3"></textarea>
+        单选框：<input type="radio" name="sex" checked="checked" />
+        单选框2：<input type="radio" name="sex" /><br />
+        复选框：<input type="checkbox" checked="checked" />1
+        <input type="checkbox" />2
+        <input type="checkbox" />3
+        下拉框：<select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+        </select><br />
+        <input type="button" value="普通按钮提交" />
+        <input type="submit" value="提交" />
+        <input type="image" src="imgs/001.png" height="200px" value="普通按钮提交" />
+        <input type="reset" value="重置表单" />
+    </form>
+</body>
+</html>
